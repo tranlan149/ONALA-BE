@@ -1,6 +1,7 @@
 import { UserGender, UserRole } from 'src/constant/enum';
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 
+// Tạo ra cấu trúc bảng trong database
 @Entity()
 export class User {
   @PrimaryGeneratedColumn()
